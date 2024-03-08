@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+}
+
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 30vh;
+    width: 50vh;
+}
+
+form{
+    margin: 2rem 0;
+}
+
+.amount p, .from p, .to p{
+    font-weight: 500;
+}
+
+form select, input, button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgray;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 0.75rem;
+    margin-top: 1rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.select-container{
+    border: 1px solid lightgray;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    margin-top: 1rem;
+    padding: 0.25rem 0.5rem;
+
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+    cursor: pointer;
+    /* padding: 0.25rem; */
+}
+
+.msg{
+    margin: 3rem 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+form button{
+    height: 3rem;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
